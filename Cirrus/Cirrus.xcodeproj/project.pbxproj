@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C81F46C6807733DF019C357 /* Pods_Cirrus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CF10F47088F557E1D671B0 /* Pods_Cirrus.framework */; };
+		6A6AE8921BF948F8009F21AC /* Sweather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE88D1BF948F8009F21AC /* Sweather.swift */; };
+		6A6AE8931BF948F8009F21AC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE88F1BF948F8009F21AC /* DataViewController.swift */; };
+		6A6AE8941BF948F8009F21AC /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE8901BF948F8009F21AC /* ModelController.swift */; };
+		6A6AE8951BF948F8009F21AC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE8911BF948F8009F21AC /* RootViewController.swift */; };
+		6A6AE8971BF95066009F21AC /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE8961BF95066009F21AC /* WeatherCondition.swift */; };
+		6A6AE89A1BF950C9009F21AC /* WeatherConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6AE8991BF950C9009F21AC /* WeatherConditionView.swift */; };
+		6A6AE89D1BF95854009F21AC /* weathericons-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6AE8981BF950A1009F21AC /* weathericons-regular-webfont.ttf */; };
+		6A82DDA21BF945120049E7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A82DDA11BF945120049E7B3 /* AppDelegate.swift */; };
+		6A82DDAB1BF945120049E7B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A82DDA91BF945120049E7B3 /* Main.storyboard */; };
+		6A82DDAD1BF945120049E7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A82DDAC1BF945120049E7B3 /* Assets.xcassets */; };
+		6A82DDB01BF945120049E7B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A82DDAE1BF945120049E7B3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A6AE88D1BF948F8009F21AC /* Sweather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sweather.swift; sourceTree = "<group>"; };
+		6A6AE88F1BF948F8009F21AC /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6A6AE8901BF948F8009F21AC /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		6A6AE8911BF948F8009F21AC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6A6AE8961BF95066009F21AC /* WeatherCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
+		6A6AE8981BF950A1009F21AC /* weathericons-regular-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "weathericons-regular-webfont.ttf"; sourceTree = "<group>"; };
+		6A6AE8991BF950C9009F21AC /* WeatherConditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherConditionView.swift; sourceTree = "<group>"; };
+		6A82DD9E1BF945120049E7B3 /* Cirrus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cirrus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A82DDA11BF945120049E7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A82DDAA1BF945120049E7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A82DDAC1BF945120049E7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A82DDAF1BF945120049E7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A82DDB11BF945120049E7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714756D27690BEB77D132D93 /* Pods-Cirrus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrus/Pods-Cirrus.debug.xcconfig"; sourceTree = "<group>"; };
+		BEADD6FEAB2ABC61E74B1A71 /* Pods-Cirrus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrus/Pods-Cirrus.release.xcconfig"; sourceTree = "<group>"; };
+		C3CF10F47088F557E1D671B0 /* Pods_Cirrus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cirrus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A82DD9B1BF945120049E7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C81F46C6807733DF019C357 /* Pods_Cirrus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		280CC9EFFF93165C898CF5FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				714756D27690BEB77D132D93 /* Pods-Cirrus.debug.xcconfig */,
+				BEADD6FEAB2ABC61E74B1A71 /* Pods-Cirrus.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A6AE88C1BF948F8009F21AC /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6A6AE88D1BF948F8009F21AC /* Sweather.swift */,
+				6A6AE8961BF95066009F21AC /* WeatherCondition.swift */,
+				6A6AE8991BF950C9009F21AC /* WeatherConditionView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6A6AE88E1BF948F8009F21AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A6AE88F1BF948F8009F21AC /* DataViewController.swift */,
+				6A6AE8901BF948F8009F21AC /* ModelController.swift */,
+				6A6AE8911BF948F8009F21AC /* RootViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A82DD951BF945120049E7B3 = {
+			isa = PBXGroup;
+			children = (
+				6A82DDA01BF945120049E7B3 /* Cirrus */,
+				6A82DD9F1BF945120049E7B3 /* Products */,
+				280CC9EFFF93165C898CF5FF /* Pods */,
+				A6C47AB272C6608DAD234312 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A82DD9F1BF945120049E7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A82DD9E1BF945120049E7B3 /* Cirrus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A82DDA01BF945120049E7B3 /* Cirrus */ = {
+			isa = PBXGroup;
+			children = (
+				6A82DDA11BF945120049E7B3 /* AppDelegate.swift */,
+				6A6AE88C1BF948F8009F21AC /* Utilities */,
+				6A6AE88E1BF948F8009F21AC /* ViewControllers */,
+				6A82DDA91BF945120049E7B3 /* Main.storyboard */,
+				6A82DDAC1BF945120049E7B3 /* Assets.xcassets */,
+				6A82DDAE1BF945120049E7B3 /* LaunchScreen.storyboard */,
+				6A82DDB11BF945120049E7B3 /* Info.plist */,
+				6A6AE8981BF950A1009F21AC /* weathericons-regular-webfont.ttf */,
+			);
+			path = Cirrus;
+			sourceTree = "<group>";
+		};
+		A6C47AB272C6608DAD234312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3CF10F47088F557E1D671B0 /* Pods_Cirrus.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A82DD9D1BF945120049E7B3 /* Cirrus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A82DDB41BF945120049E7B3 /* Build configuration list for PBXNativeTarget "Cirrus" */;
+			buildPhases = (
+				EDBB274E216A1B0F1912D6CF /* Check Pods Manifest.lock */,
+				6A82DD9A1BF945120049E7B3 /* Sources */,
+				6A82DD9B1BF945120049E7B3 /* Frameworks */,
+				6A82DD9C1BF945120049E7B3 /* Resources */,
+				A66A81740A0152C22551AF19 /* Embed Pods Frameworks */,
+				D3E57E11FC4143905869A69C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cirrus;
+			productName = Cirrus;
+			productReference = 6A82DD9E1BF945120049E7B3 /* Cirrus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A82DD961BF945120049E7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Chayel Heinsen";
+				TargetAttributes = {
+					6A82DD9D1BF945120049E7B3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 8A3233VT57;
+					};
+				};
+			};
+			buildConfigurationList = 6A82DD991BF945120049E7B3 /* Build configuration list for PBXProject "Cirrus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A82DD951BF945120049E7B3;
+			productRefGroup = 6A82DD9F1BF945120049E7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A82DD9D1BF945120049E7B3 /* Cirrus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A82DD9C1BF945120049E7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A82DDB01BF945120049E7B3 /* LaunchScreen.storyboard in Resources */,
+				6A82DDAD1BF945120049E7B3 /* Assets.xcassets in Resources */,
+				6A6AE89D1BF95854009F21AC /* weathericons-regular-webfont.ttf in Resources */,
+				6A82DDAB1BF945120049E7B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A66A81740A0152C22551AF19 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrus/Pods-Cirrus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E57E11FC4143905869A69C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrus/Pods-Cirrus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBB274E216A1B0F1912D6CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A82DD9A1BF945120049E7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6AE8951BF948F8009F21AC /* RootViewController.swift in Sources */,
+				6A6AE8921BF948F8009F21AC /* Sweather.swift in Sources */,
+				6A6AE8941BF948F8009F21AC /* ModelController.swift in Sources */,
+				6A6AE8931BF948F8009F21AC /* DataViewController.swift in Sources */,
+				6A6AE8971BF95066009F21AC /* WeatherCondition.swift in Sources */,
+				6A6AE89A1BF950C9009F21AC /* WeatherConditionView.swift in Sources */,
+				6A82DDA21BF945120049E7B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A82DDA91BF945120049E7B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A82DDAA1BF945120049E7B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A82DDAE1BF945120049E7B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A82DDAF1BF945120049E7B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A82DDB21BF945120049E7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A82DDB31BF945120049E7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A82DDB51BF945120049E7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 714756D27690BEB77D132D93 /* Pods-Cirrus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Cirrus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chayelheinsen.Cirrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A82DDB61BF945120049E7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEADD6FEAB2ABC61E74B1A71 /* Pods-Cirrus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Cirrus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chayelheinsen.Cirrus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A82DD991BF945120049E7B3 /* Build configuration list for PBXProject "Cirrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A82DDB21BF945120049E7B3 /* Debug */,
+				6A82DDB31BF945120049E7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A82DDB41BF945120049E7B3 /* Build configuration list for PBXNativeTarget "Cirrus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A82DDB51BF945120049E7B3 /* Debug */,
+				6A82DDB61BF945120049E7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A82DD961BF945120049E7B3 /* Project object */;
+}

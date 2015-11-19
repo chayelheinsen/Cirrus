@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.1.2)
+  - DGElasticPullToRefresh (1.0.3)
+  - FloatingActionSheetController (1.1.0)
+  - Mercury (1.1)
+  - SwiftLocation (0.2.0)
+  - SwiftyJSON (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - DGElasticPullToRefresh
+  - FloatingActionSheetController
+  - Mercury
+  - SwiftLocation
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 7c16ca65f3c7e681fd925fd7f2dec7747ff96855
+  DGElasticPullToRefresh: 040f39ae69840b3261d163fe6735c5901bf851e9
+  FloatingActionSheetController: 229e0cfe96d691b97c91900f9b6d54ece6bf93bd
+  Mercury: 6b808292b0ac1a780a65463135bf0e1f9df18415
+  SwiftLocation: ea78ae4a822581bde7379d98c8513273723c8840
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+
+COCOAPODS: 0.39.0
